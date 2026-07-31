@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Carbon Footprint Calculator — Free CO₂ Emissions Estimator | Tabutility</title>
+<meta name="description" content="Calculate your personal carbon footprint from home energy, transport, flights, diet, and shopping. See your CO₂ in tonnes per year and how to reduce it."/>
+<link rel="canonical" href="https://carbon-footprint-calculator.tabutility.com/"/>
+<meta property="og:title" content="Carbon Footprint Calculator — Free CO₂ Emissions Estimator"/>
+<meta property="og:description" content="Calculate your annual CO₂ footprint from energy, travel, diet, and lifestyle. See how you compare to national averages."/>
+<meta property="og:url" content="https://carbon-footprint-calculator.tabutility.com/"/>
+<meta property="og:type" content="website"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Carbon Footprint Calculator","url":"https://carbon-footprint-calculator.tabutility.com/","description":"Free personal carbon footprint calculator. Estimate your annual CO₂ emissions from energy, travel, diet, and lifestyle.","applicationCategory":"LifestyleApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"creator":{"@type":"Organization","name":"Tabutility","url":"https://tabutility.com"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Tabutility","item":"https://tabutility.com"},{"@type":"ListItem","position":2,"name":"Carbon Footprint Calculator","item":"https://carbon-footprint-calculator.tabutility.com/"}]}</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7039091592734005" crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-78VZWJ5B1W"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-78VZWJ5B1W');</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#f1f5f9;min-height:100vh}
+nav{background:#1e293b;padding:12px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #334155}
+nav a{color:#a5b4fc;text-decoration:none;font-size:14px;font-weight:600}
+.container{max-width:700px;margin:0 auto;padding:24px 16px}
+h1{font-size:clamp(20px,4vw,30px);font-weight:800;margin-bottom:8px}
+.subtitle{color:#94a3b8;font-size:15px;margin-bottom:24px}
+.card{background:#1e293b;border:1px solid #334155;border-radius:14px;padding:22px;margin-bottom:18px}
+.card h2{font-size:15px;font-weight:700;color:#a5b4fc;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.field label{display:block;font-size:11px;color:#94a3b8;margin-bottom:4px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.field input,.field select{width:100%;background:#0f172a;border:1px solid #475569;border-radius:8px;padding:10px 12px;color:#f1f5f9;font-size:15px;outline:none}
+.field input:focus,.field select:focus{border-color:#6366f1}
+.btn{width:100%;background:#6366f1;color:#fff;border:none;border-radius:10px;padding:13px;font-size:16px;font-weight:700;cursor:pointer;margin-top:6px}
+.total-co2{text-align:center;background:#0f172a;border-radius:14px;padding:28px;margin-bottom:16px}
+.co2-val{font-size:56px;font-weight:900;line-height:1;margin-bottom:6px}
+.co2-val.good{color:#34d399}
+.co2-val.avg{color:#f59e0b}
+.co2-val.high{color:#f87171}
+.co2-sub{font-size:13px;color:#94a3b8}
+.bar-row{margin-bottom:10px}
+.bar-label{display:flex;justify-content:space-between;font-size:12px;color:#94a3b8;margin-bottom:4px}
+.bar-bg{background:#0f172a;border-radius:6px;height:10px;overflow:hidden}
+.bar-fill{height:100%;border-radius:6px;background:#6366f1;transition:width .5s}
+.tips{background:#0f2027;border:1px solid #0e4d3a;border-radius:10px;padding:14px;margin-top:12px}
+.tips p{font-size:13px;color:#34d399;margin-bottom:6px}
+.tips p:last-child{margin-bottom:0}
+.adslot{min-height:90px;background:#1e293b;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#475569;font-size:12px;margin:20px 0}
+.faq-item{border-bottom:1px solid #334155;padding:14px 0}
+.faq-item summary{cursor:pointer;font-weight:600;color:#e2e8f0;list-style:none;font-size:14px}
+.faq-item p{color:#94a3b8;font-size:13px;margin-top:8px;line-height:1.6}
+footer{text-align:center;padding:32px 16px;color:#475569;font-size:12px;border-top:1px solid #1e293b;margin-top:32px}
+@media(max-width:500px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav><a href="https://tabutility.com">← All Tools</a><span style="color:#64748b;font-size:12px">Free · No sign-up</span></nav>
+<div class="container">
+  <h1>🌍 Carbon Footprint Calculator</h1>
+  <p class="subtitle">Estimate your annual CO₂ emissions and see where to make the biggest impact.</p>
+  <div class="adslot"><ins class="adsbygoogle" style="display:block;width:100%;height:90px" data-ad-client="ca-pub-7039091592734005" data-ad-slot="auto" data-ad-format="horizontal"></ins></div>
+  <div class="card">
+    <h2>🏠 Home Energy</h2>
+    <div class="grid">
+      <div class="field"><label>Gas Bill (£/$/mo)</label><input type="number" id="gas" value="80" min="0"/></div>
+      <div class="field"><label>Electricity Bill (£/$/mo)</label><input type="number" id="elec" value="60" min="0"/></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2>🚗 Transport</h2>
+    <div class="grid">
+      <div class="field"><label>Car Miles per Week</label><input type="number" id="carmiles" value="150" min="0"/></div>
+      <div class="field"><label>Car Type</label><select id="cartype"><option value="0.21">Petrol/Gasoline</option><option value="0.17">Diesel</option><option value="0.05">Electric</option><option value="0.12">Hybrid</option><option value="0">No car</option></select></div>
+      <div class="field"><label>Flights per Year (short)</label><input type="number" id="flights-short" value="2" min="0"/></div>
+      <div class="field"><label>Flights per Year (long-haul)</label><input type="number" id="flights-long" value="1" min="0"/></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2>🍽️ Diet &amp; Lifestyle</h2>
+    <div class="grid">
+      <div class="field"><label>Diet Type</label><select id="diet"><option value="3.3">Heavy meat-eater</option><option value="2.5">Moderate meat-eater</option><option value="1.9">Low meat-eater</option><option value="1.7">Pescatarian</option><option value="1.5">Vegetarian</option><option value="1.1">Vegan</option></select></div>
+      <div class="field"><label>Shopping (clothes, electronics)</label><select id="shopping"><option value="0.5">Minimal</option><option value="1.0">Average</option><option value="1.8">High</option><option value="3.0">Very high</option></select></div>
+    </div>
+    <button class="btn" onclick="calc()">Calculate My Carbon Footprint</button>
+  </div>
+  <div class="card" id="results" style="display:none">
+    <h2>Your Carbon Footprint</h2>
+    <div class="total-co2">
+      <div class="co2-val" id="r-total">—</div>
+      <div style="font-size:16px;color:#94a3b8;margin-top:4px">tonnes CO₂ per year</div>
+      <div class="co2-sub" id="r-compare" style="margin-top:8px"></div>
+    </div>
+    <div id="breakdown-bars"></div>
+    <div class="tips" id="tips"></div>
+  </div>
+  <div style="margin:0 auto 24px;max-width:640px;background:#1e293b;border-radius:10px;padding:14px 18px;display:flex;align-items:center;gap:14px;cursor:pointer;border:1px solid #334155" onclick="window.open('https://www.amazon.com/s?k=sustainability+climate+change+books&tag=tabutility-20','_blank','noopener noreferrer')">
+    <span style="font-size:28px;flex-shrink:0">📚</span>
+    <div><div style="font-size:13px;font-weight:700;color:#f1f5f9;margin-bottom:3px">Learn how to live more sustainably</div><div style="font-size:12px;color:#94a3b8">Browse sustainability books <span style="color:#f59e0b">→ Browse on Amazon</span></div><div style="font-size:10px;color:#475569;margin-top:3px">As an Amazon Associate we earn from qualifying purchases.</div></div>
+  </div>
+  <h2 style="font-size:15px;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;margin-bottom:14px">Related Tools</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:32px">
+    <a href="https://fuel-cost.tabutility.com/" style="display:block;background:#1e293b;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none"><div style="font-size:13px;font-weight:600;color:#f1f5f9">Fuel Cost Calculator</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Calculators</div></a>
+    <a href="https://unit-converter.tabutility.com/" style="display:block;background:#1e293b;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none"><div style="font-size:13px;font-weight:600;color:#f1f5f9">Unit Converter</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Converters</div></a>
+    <a href="https://roi.tabutility.com/" style="display:block;background:#1e293b;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none"><div style="font-size:13px;font-weight:600;color:#f1f5f9">ROI Calculator</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Calculators</div></a>
+    <a href="https://savings-goal-calculator.tabutility.com/" style="display:block;background:#1e293b;border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:12px 16px;text-decoration:none"><div style="font-size:13px;font-weight:600;color:#f1f5f9">Savings Goal Calculator</div><div style="font-size:11px;color:#94a3b8;margin-top:2px">Calculators</div></a>
+  </div>
+  <div class="card">
+    <h2>Frequently Asked Questions</h2>
+    <details class="faq-item"><summary>What is the average carbon footprint per person?</summary><p>Global average: ~4 tonnes CO₂/year. UK average: ~5.5 tonnes. US average: ~14 tonnes. Australia: ~15 tonnes. To keep global warming below 1.5°C, the target is around 2.5 tonnes per person by 2030.</p></details>
+    <details class="faq-item"><summary>What has the biggest impact on my carbon footprint?</summary><p>For most people: flights (a single long-haul return flight can add 1.5–3 tonnes), diet (meat-heavy diets produce 2× more than vegan), and home heating (gas boilers are a major source in the UK). Switching to an EV and heat pump makes a large dent.</p></details>
+    <details class="faq-item"><summary>How can I offset my carbon footprint?</summary><p>You can offset through certified schemes (Gold Standard, Verified Carbon Standard). However, most climate scientists advise reducing first, then offsetting the unavoidable remainder. Offsets should not replace behavioural change.</p></details>
+    <details class="faq-item"><summary>How accurate is this calculator?</summary><p>This provides a reasonable estimate based on average emissions factors. Real footprints vary by your local energy grid's carbon intensity, specific vehicle efficiency, food sourcing, and more. It's a useful starting point for identifying the biggest areas to target.</p></details>
+    <details class="faq-item"><summary>Does recycling significantly reduce my footprint?</summary><p>Recycling helps but has a relatively small impact compared to diet, flights, and heating. The biggest individual actions are: eating less meat, flying less, switching to an EV, and installing a heat pump or solar panels.</p></details>
+  </div>
+</div>
+<footer>© 2024 Tabutility · For informational use only · <a href="https://tabutility.com" style="color:#6366f1">All Tools</a></footer>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the average carbon footprint per person?","acceptedAnswer":{"@type":"Answer","text":"Global average: ~4t CO₂/year. UK: ~5.5t. US: ~14t. Australia: ~15t. Target for 1.5°C: ~2.5t by 2030."}},{"@type":"Question","name":"What has the biggest impact on my carbon footprint?","acceptedAnswer":{"@type":"Answer","text":"Flights (1.5–3t per long-haul return), diet (meat-heavy diets produce 2× more than vegan), and home heating."}},{"@type":"Question","name":"How can I offset my carbon footprint?","acceptedAnswer":{"@type":"Answer","text":"Through certified offset schemes (Gold Standard, VCS). Best practice: reduce first, offset the unavoidable remainder."}},{"@type":"Question","name":"Does recycling significantly reduce my footprint?","acceptedAnswer":{"@type":"Answer","text":"Recycling helps but the biggest actions are: eating less meat, flying less, switching to an EV, and installing a heat pump."}}]}</script>
+<script>
+function calc(){
+  const gas=parseFloat(document.getElementById('gas').value)||0;
+  const elec=parseFloat(document.getElementById('elec').value)||0;
+  const carMiles=parseFloat(document.getElementById('carmiles').value)||0;
+  const carFactor=parseFloat(document.getElementById('cartype').value);
+  const flightsShort=parseFloat(document.getElementById('flights-short').value)||0;
+  const flightsLong=parseFloat(document.getElementById('flights-long').value)||0;
+  const diet=parseFloat(document.getElementById('diet').value);
+  const shopping=parseFloat(document.getElementById('shopping').value);
+  // CO2 tonnes per year
+  const gasCO2=gas*12*0.00201; // ~£1 gas ≈ 0.002t CO2
+  const elecCO2=elec*12*0.00085; // ~£1 electricity ≈ 0.00085t
+  const carCO2=carMiles*52*carFactor/1000; // kg/mi * miles/yr / 1000
+  const flightCO2=flightsShort*0.25+flightsLong*1.5; // tonnes per flight
+  const dietCO2=diet;
+  const shoppingCO2=shopping;
+  const total=gasCO2+elecCO2+carCO2+flightCO2+dietCO2+shoppingCO2;
+  const cls=total<5?'good':total<10?'avg':'high';
+  document.getElementById('r-total').textContent=total.toFixed(1);
+  document.getElementById('r-total').className='co2-val '+cls;
+  document.getElementById('r-compare').textContent=total<4?'✅ Below the global average of 4t — well done!':total<7?'⚠️ Above the 4t global average — some room to improve':total<12?'⚠️ Significantly above average — a few changes could make a big difference':'❌ High footprint — targeted action can cut this significantly';
+  const cats=[{l:'Home Gas',v:gasCO2},{l:'Electricity',v:elecCO2},{l:'Car',v:carCO2},{l:'Flights',v:flightCO2},{l:'Diet',v:dietCO2},{l:'Shopping',v:shoppingCO2}];
+  const max=Math.max(...cats.map(c=>c.v));
+  let barsHtml='';
+  for(const c of cats){barsHtml+=`<div class="bar-row"><div class="bar-label"><span>${c.l}</span><span>${c.v.toFixed(2)}t CO₂</span></div><div class="bar-bg"><div class="bar-fill" style="width:${max>0?c.v/max*100:0}%"></div></div></div>`;}
+  document.getElementById('breakdown-bars').innerHTML=barsHtml;
+  // Tips for biggest categories
+  const sorted=[...cats].sort((a,b)=>b.v-a.v);
+  let tips='<p style="font-weight:700;margin-bottom:8px">🌱 Biggest wins for you:</p>';
+  if(sorted[0].v>0)tips+=`<p>• Reduce your <strong>${sorted[0].l.toLowerCase()}</strong> emissions — your biggest single category</p>`;
+  if(flightCO2>0.5)tips+='<p>• Consider train alternatives or reducing flights — aviation has a large impact per journey</p>';
+  if(gasCO2>0.5)tips+='<p>• A heat pump or better insulation could halve your home heating emissions</p>';
+  if(dietCO2>2)tips+='<p>• Reducing red meat by half typically cuts diet emissions by 30%+</p>';
+  document.getElementById('tips').innerHTML=tips;
+  document.getElementById('results').style.display='block';
+}
+</script>
+</body>
+</html>
